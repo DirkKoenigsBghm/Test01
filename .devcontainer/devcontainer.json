@@ -1,20 +1,3 @@
 {
-  "name": "Node.js Entwicklungscontainer",
-  "image": "mcr.microsoft.com/devcontainers/node:18",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    }
-  },
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
-  },
-  "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
-  ],
-  "forwardPorts": [3000],
-  "postCreateCommand": "npm install",
-  "remoteUser": "vscode"
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18"
 }
